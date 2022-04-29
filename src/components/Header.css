@@ -2,6 +2,7 @@ header{
   width: 100%;
   height: 100px;
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -13,22 +14,20 @@ header{
 }
 
 .logo-mobile {
-  width: 70%;
+  width: 250px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
 .list {
   display: flex;
-  /* background-color: white; */
-  align-items: flex-end;
+  justify-content: space-between;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100vh;
   position: absolute;
   z-index: 30;
-  /* From https://css.glass */
-  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.23);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -38,17 +37,20 @@ header{
 }
 
 .listItems, .link, .li {
-  margin-right: 5px;
   display: flex;
+  font-weight: 500;
+  font-size: larger;
   flex-direction: column;
-  /* background-color: antiquewhite; */
-  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   list-style: none;
   text-decoration: none;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
-.li:active {
-  color: aqua;
+.li {
+  border: 1px solid black;
 }
