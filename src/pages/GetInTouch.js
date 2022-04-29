@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../components/Header';
 
 function GetInTouch() {
   return (
-    <h1>Get in touch</h1>
+    <>
+      <Header />
+      <main>Get In Touch</main>
+    </>
   );
 }
 
