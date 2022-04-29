@@ -15,10 +15,24 @@ body {
   color: #fff;
   font-weight: 500;
   height: 100px;
-  max-height: 100vh;
+  /* max-height: 100vh; */
 }
 
 .keen-slider__slide {
   background-color: transparent;
 }
+
+.technologies-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tec{
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
 

@@ -2,8 +2,10 @@ import React from 'react';
 import Header from '../components/Header';
 import Skills from '../components/Skills';
 import './Home.css'
+import './button.css'
 
-function Home() {
+function Home(props) {
+  const {history} = props
   return (
     <>
       <Header />
@@ -12,6 +14,12 @@ function Home() {
           <h1 id="title">Hi, I'm Ramond Falcão, a Front End developer.</h1>
           <p id="paragraph">I am passionate about developing Front End applications, while working collaboratively and solving user problems.</p>
         </section>
+        <button
+          onClick={() => history.push('/works')}
+          type="button"
+        >
+          <span class="text">Button</span>
+        </button>
         <Skills />
       </main>
     </>

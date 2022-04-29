@@ -1,4 +1,4 @@
-.main-home {
+.section1-homee {
   width: 100%;
   height: 70vh;
   margin-top: 20px;
@@ -17,10 +17,12 @@
 
 #title{
   margin-bottom: 25px;
-  color: #E90026
+  /* color: #E90026 */
+  color: whitesmoke;
 }
 
 #paragraph {
   font-style: italic;
-  color: #FF002C;
+  /* color: #FF002C; */
+  color: whitesmoke;
 }

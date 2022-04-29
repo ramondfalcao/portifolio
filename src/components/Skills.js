@@ -23,8 +23,8 @@ export function Skills() {
     },
   })
   return (
-    <>
-      <h2>
+    <section className="technologies-container">
+      <h2 className="tec">
         Technologies:
       </h2>
       <div ref={sliderRef} className="keen-slider">
@@ -36,7 +36,7 @@ export function Skills() {
             />
         ))}
       </div>
-    </>
+    </section>
   )
   }
 
