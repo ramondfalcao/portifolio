@@ -8,7 +8,7 @@ function Home(props) {
   const {history} = props
   return (
     <>
-      <Header />
+      <Header props={props} />
       <main className="main-home">
         <section className="section1-home">
           <h1 id="title">Hi, I'm Ramond Falcão, a Front End developer.</h1>
@@ -18,7 +18,7 @@ function Home(props) {
           onClick={() => history.push('/works')}
           type="button"
         >
-          <span class="text">Button</span>
+          <span class="text">Works</span>
         </button>
         <Skills />
       </main>

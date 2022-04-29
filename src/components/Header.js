@@ -29,9 +29,27 @@ function Header() {
         {active && (
           <div className="list">
             <ul className="listItems">
-              <Link className="link" to="/works"><li className="li">Works</li></Link>
-              <Link className="link" to="/about"><li className="li">About me</li></Link>
-              <Link className="link" to="getintouch"><li className="li">Get in touch</li></Link>
+              <Link to="/works">
+                <button
+                  type="button"
+                >
+                  <span class="text">Works</span>
+                </button>
+              </Link>
+              <Link to="/about">
+                <button
+                  type="button"
+                >
+                  <span class="text">About</span>
+                </button>
+              </Link>
+              <Link to="getintouch">
+                <button
+                  type="button"
+                >
+                  <span class="text">Get In Touch</span>
+                </button>
+              </Link>
             </ul>
           </div>
         )}
