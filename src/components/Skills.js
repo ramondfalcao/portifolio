@@ -36,11 +36,6 @@ export function Skills() {
             className="keen-slider__slide number-slide1"
             />
         ))}
-        <img
-            alt="github"
-            src={ iconGithub }
-            className="keen-slider__slide number-slide1"
-            />
       </div>
     </section>
   )

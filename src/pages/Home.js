@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Skills from '../components/Skills';
 import './Home.css'
 import './button.css'
+import About from '../components/About';
 
 function Home(props) {
   const {history} = props
@@ -20,6 +21,7 @@ function Home(props) {
         >
           <span class="text">Works</span>
         </button>
+        <About />
         <Skills />
       </main>
     </>

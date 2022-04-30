@@ -1,5 +1,6 @@
 import trybeWallet from '../assets/trybeWallet.png';
 import tryunfo from '../assets/tryunfo.png';
+import iconGithub from '../assets/iconGithub.svg';
 
 export const projects = [
   {
@@ -53,5 +54,21 @@ export const technologies = [
   {
     name: 'Git',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+  },
+  {
+    name: 'GitHub',
+    icon: iconGithub,
+  },
+  {
+    name: 'Slack',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg',
+  },
+  {
+    name: 'BootStrap',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+  },
+  {
+    name: 'Vscode',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
   },
 ]
