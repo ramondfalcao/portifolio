@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: 'Tryunfo',
-    description: 'Carteira de controle de gastos com conversor de moedas',
+    description: 'Neste projeto foi desenvolvido um jogo no estilo Super Trunfo!',
     img: tryunfo,
     deploy: 'https://ramondfalcao.github.io/super-trunfo/',
     repository: 'https://github.com/ramondfalcao/super-trunfo',
