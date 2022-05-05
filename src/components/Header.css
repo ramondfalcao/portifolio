@@ -68,4 +68,28 @@ header{
   }
 }
 
+/* DESKTOP SIZE */
+
+@media only screen and (min-width: 850px) {
+  .list-desktop {
+    display: block;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+
+  .listItems-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+  
+  .menu-mobile {
+    display: none;
+  }
+}
+
 

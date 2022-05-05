@@ -14,6 +14,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(5, 6, 45); 
+  font-family: 'Montserrat', sans-serif;
   color: white;
   width: 20rem;
   height: 30rem;
@@ -52,4 +53,68 @@
 
 .img-icon:hover {
   transform: scale(1.2);
+}
+
+
+/* IPAD SIZE */
+
+@media only screen and (min-width: 500px) and (max-width: 850px) {
+  .about-section {
+    width: 100%;
+    padding: 5%;
+    height: 60vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(5, 6, 45);
+    color: white;
+    width: 20rem;
+    height: 30rem;
+    transition: 0.5s;
+    border-radius: 1.8rem;
+  }
+
+  .technologies-container{
+    width: 60%;
+    height: 30rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .card-tec {
+    margin-top: 15px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tec-img {
+    width: 50px;
+  }
+  
+  /* .tec-img:hover {
+    transform: scale(1.2);
+  } */
+  
+  .tec-name {
+    /* color: rgb(5, 6, 45); */
+    margin-bottom: 5px;
+  }
+  
 }
