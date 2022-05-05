@@ -25,6 +25,31 @@ function Header() {
           src={menuRed}
           alt="Menu Mobile" 
         />
+        <div className="list-desktop">
+          <ul className="listItems-desktop">
+            <Link to="/works">
+              <button
+                type="button"
+              >
+                <span class="text">Works</span>
+              </button>
+            </Link>
+            <Link to="/about">
+              <button
+                type="button"
+              >
+                <span class="text">About</span>
+              </button>
+            </Link>
+            <Link to="getintouch">
+              <button
+                type="button"
+              >
+                <span class="text">Get In Touch</span>
+              </button>
+            </Link>
+          </ul>
+        </div>
       </header>
         {active && (
           <div className="list">

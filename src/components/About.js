@@ -1,7 +1,9 @@
 import React from 'react';
 import profile from '../assets/profile.jpeg';
-import logoGmail from '../assets/logoGmail.svg';
+import logoGmail2 from '../assets/logoGmail2.svg';
+import iconGithub2 from '../assets/iconGithub2.svg';
 import './About.css';
+import Skills from './Skills';
 
 function About() {
   return (
@@ -15,7 +17,7 @@ function About() {
               <img
                 className="img-icon"
                 alt='github_Icon'
-                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+                src={iconGithub2}
                 />
               </a>
             <a className="img-icon" target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/ramond-falc%C3%A3o-b528a1206/'>
@@ -29,11 +31,12 @@ function About() {
               <img
                 className="img-icon"
                 alt='linkedin_Icon'
-                src={logoGmail}
+                src={logoGmail2}
               />
            </a>
          </div> 
       </div>
+      <Skills />
     </section>
   );
 }

@@ -20,14 +20,18 @@ function Works() {
                   target="_blank"
                   rel='noreferrer'
                 >
-                  <button>Deploy</button>
+                  <button className='btn-works' type="button">
+                    <span class="text">Deploy</span>
+                  </button>
                 </a>
                 <a 
                   href={project.repository}
                   target="_blank"
                   rel='noreferrer'
                 >
-                  <button>Repository</button>
+                  <button className='btn-works' type="button">
+                    <span class="text">Repository</span>
+                  </button>
                 </a>
               </div>
             </div>

@@ -1,3 +1,7 @@
+.main-home {
+  width: 100%;
+}
+
 .section1-homee {
   width: 100%;
   height: 70vh;
@@ -18,11 +22,38 @@
 #title{
   margin-bottom: 25px;
   /* color: #E90026 */
-  color: whitesmoke;
+  color: rgb(5, 6, 45); 
 }
 
 #paragraph {
   font-style: italic;
-  /* color: #FF002C; */
-  color: whitesmoke;
+  margin-bottom: 20px;
+  color: rgb(5, 6, 45); 
+}
+
+@media only screen and (min-width: 500px) and (max-width: 850px) {
+  .section1-home {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    font-size: 25px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #title {
+    margin-bottom: 25px;
+    font-size: 54px;
+  }
+
+  #paragraph {
+    font-size: 37px;
+    margin-bottom: 26px;
+  }
+
+  #button-work-main{
+    max-width: 20%;
+  }
 }
