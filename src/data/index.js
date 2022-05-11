@@ -1,4 +1,4 @@
-import trybeWallet from '../assets/trybeWallet.png';
+import trybeWallet from '../assets/trybeWallet.svg';
 import tryunfo from '../assets/tryunfo.png';
 import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
 import triviaProject from '../assets/triviaProject.svg';
