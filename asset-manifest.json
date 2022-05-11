@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.877f928d.css",
-    "main.js": "/portifolio/static/js/main.a6891275.js",
+    "main.css": "/portifolio/static/css/main.a10483cb.css",
+    "main.js": "/portifolio/static/js/main.47ad8d95.js",
     "static/media/tryunfo.png": "/portifolio/static/media/tryunfo.ec7f28de53008975b522.png",
+    "static/media/profileEdited.png": "/portifolio/static/media/profileEdited.43cb9ad3b6ad2b18ca6a.png",
     "static/media/trybeWallet.png": "/portifolio/static/media/trybeWallet.d764488ca57c651a17d8.png",
+    "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.92affc5b90768d9199be56c589897900.svg",
     "static/media/imgHome.svg": "/portifolio/static/media/imgHome.bd510ae1a3d7a32426884a79773d7936.svg",
     "static/media/trivia.png": "/portifolio/static/media/trivia.7288530e0ca857c23266.png",
     "static/media/iconGithub2.svg": "/portifolio/static/media/iconGithub2.699c0f9a2c15fb17d07d209533eff0f6.svg",
     "static/media/logoGmail2.svg": "/portifolio/static/media/logoGmail2.b83e6b61f1bf0a48d4049ca8d2e8b1ce.svg",
     "static/media/iconGithub.svg": "/portifolio/static/media/iconGithub.2f957a686246d2a3ec547a17a03b04f2.svg",
-    "static/media/profile.jpeg": "/portifolio/static/media/profile.d21ec978411745277a69.jpeg",
     "static/media/logo2.svg": "/portifolio/static/media/logo2.05b4961464c8ebb8e3ffb69967be1e7f.svg",
     "index.html": "/portifolio/index.html",
     "static/media/menuRed.svg": "/portifolio/static/media/menuRed.2af3d7995b2e6b166c2d1c14aa4a89e2.svg",
-    "main.877f928d.css.map": "/portifolio/static/css/main.877f928d.css.map",
-    "main.a6891275.js.map": "/portifolio/static/js/main.a6891275.js.map"
+    "main.a10483cb.css.map": "/portifolio/static/css/main.a10483cb.css.map",
+    "main.47ad8d95.js.map": "/portifolio/static/js/main.47ad8d95.js.map"
   },
   "entrypoints": [
-    "static/css/main.877f928d.css",
-    "static/js/main.a6891275.js"
+    "static/css/main.a10483cb.css",
+    "static/js/main.47ad8d95.js"
   ]
 }
