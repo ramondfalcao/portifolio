@@ -1,7 +1,7 @@
 import trybeWallet from '../assets/trybeWallet.png';
 import tryunfo from '../assets/tryunfo.png';
-import trivia from '../assets/trivia.png';
 import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
+import triviaProject from '../assets/triviaProject.svg';
 import iconGithub from '../assets/iconGithub.svg';
 
 export const projects = [
@@ -24,9 +24,9 @@ export const projects = [
   {
     title: 'Trivia',
     description: 'Um jogo no estilo quiz de perguntas e respostas!',
-    img: trivia,
-    deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
-    repository: 'https://github.com/ramondfalcao/trybe-wallet',
+    img: triviaProject,
+    deploy: 'https://github.com/ramondfalcao/trivia-game',
+    repository: 'https://github.com/ramondfalcao/trivia-game',
     trybe: true,
   },
   {
