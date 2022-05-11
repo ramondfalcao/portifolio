@@ -1,6 +1,7 @@
 import trybeWallet from '../assets/trybeWallet.png';
 import tryunfo from '../assets/tryunfo.png';
 import trivia from '../assets/trivia.png';
+import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
 import iconGithub from '../assets/iconGithub.svg';
 
 export const projects = [
@@ -22,8 +23,16 @@ export const projects = [
   },
   {
     title: 'Trivia',
-    description: 'Um jogo no estilo quiz de perguntas e respostas',
+    description: 'Um jogo no estilo quiz de perguntas e respostas!',
     img: trivia,
+    deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
+    repository: 'https://github.com/ramondfalcao/trybe-wallet',
+    trybe: true,
+  },
+  {
+    title: 'App de receitas',
+    description: 'Um app onde você pode aprender várias receitas de comidas e drinks!',
+    img: sizesAppDeReceitas,
     deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
     repository: 'https://github.com/ramondfalcao/trybe-wallet',
     trybe: true,
