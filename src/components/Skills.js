@@ -5,7 +5,7 @@ import { technologies } from "../data"
 export function Skills() {
   return (
     <section className="technologies-container">
-      <h2>Technologies</h2>
+      {/* <h2>Technologies</h2> */}
       <div className="cards">
         {technologies.map((tec, index) => (
           <div key={ index } className="card-tec">

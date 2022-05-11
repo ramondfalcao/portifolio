@@ -27,27 +27,22 @@ function Header() {
         />
         <div className="list-desktop">
           <ul className="listItems-desktop">
-            <Link to="/works">
+            <Link className='btn-desktop' to="/works">
               <button
+                className='btn-desktop'
                 type="button"
               >
                 <span class="text">Works</span>
               </button>
             </Link>
-            <Link to="/about">
+            <a className='btn-desktop' href='#about'>
               <button
+                className='btn-desktop'
                 type="button"
               >
                 <span class="text">About</span>
               </button>
-            </Link>
-            <Link to="getintouch">
-              <button
-                type="button"
-              >
-                <span class="text">Get In Touch</span>
-              </button>
-            </Link>
+            </a>
           </ul>
         </div>
       </header>
@@ -57,6 +52,7 @@ function Header() {
               <Link to="/works">
                 <button
                   type="button"
+                  className='btn-mobile'
                 >
                   <span class="text">Works</span>
                 </button>
@@ -64,15 +60,9 @@ function Header() {
               <Link to="/about">
                 <button
                   type="button"
+                  className='btn-mobile'
                 >
                   <span class="text">About</span>
-                </button>
-              </Link>
-              <Link to="getintouch">
-                <button
-                  type="button"
-                >
-                  <span class="text">Get In Touch</span>
                 </button>
               </Link>
             </ul>

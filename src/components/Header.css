@@ -40,6 +40,10 @@ header{
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.btn-mobile {
+  margin-top: 25px;
+}
+
 @media only screen and (min-width: 500px) and (max-width: 850px) {
   header {
     width: 100%;
@@ -82,13 +86,16 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* background-color: red; */
     justify-content: flex-end;
     padding-right: 40px;
   }
-  
+
   .menu-mobile {
     display: none;
+  }
+
+  .btn-desktop {
+    text-decoration: none;
   }
 }
 

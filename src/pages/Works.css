@@ -5,11 +5,11 @@
 }
 
 .section-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-project {
@@ -94,3 +94,23 @@
  .btn-works:active {
   transform: scale(0.9);
  }
+
+
+ /* DESKTOP SIZE */
+
+@media only screen and (min-width: 850px) {
+  .section-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    justify-content: center;
+    width: 50%;
+  }
+  .img-cards {
+    border-radius: 5%;
+  }
+
+  .img-cards:hover {
+    transform: scale(1.1);
+  }
+}
