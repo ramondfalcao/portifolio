@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+.main-home-dark {
+  width: 100%;
+  background-color: rgb(5, 6, 45);
+  color: whitesmoke;
+}
+
+
 .img-home {
   margin-top: 40px;
   margin-left: 40px;
@@ -24,16 +31,28 @@
   width: 100%;
 }
 
-#title{
+.title{
   margin-bottom: 20px;
   color: rgb(5, 6, 45); 
 }
 
-#paragraph {
+.title-dark{
+  margin-bottom: 20px;
+  color:  whitesmoke
+}
+
+.paragraph {
   font-style: italic;
   margin-bottom: 20px;
   font-size: 22px;
   color: rgb(5, 6, 45); 
+}
+
+.paragraph-dark {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color:  whitesmoke
 }
 
 /* IPAD SIZE */
@@ -92,7 +111,7 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 100%;
   }
 

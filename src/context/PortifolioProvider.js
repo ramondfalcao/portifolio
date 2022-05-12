@@ -7,6 +7,7 @@ function PortifolioProvider({ children }) {
 
   const contextValue = {
     toggleDark,
+    setToggleDark,
   };
 
   return (

@@ -1,25 +1,30 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import menuRed from '../assets/menuRed.svg';
 import logo2 from '../assets/logo2.svg';
 import './Header.css'
 import './toggleDark.css'
+import portfolioContext from '../context/PortfolioContext';
 
 function Header() {
+  const { toggleDark, setToggleDark } = useContext(portfolioContext)
   const [active, setActive] = useState(false)
+
   const toggleMode = () => {
     setActive(!active)
   }
+
+  const toggleDarkAndWhite = () => {
+    setToggleDark(!toggleDark)
+  }
+
   return (
     <>
-      <header className="header">
-        <Link to="/">
-          <img
-            className="logo-mobile" 
-            src={logo2}
-            alt="Menu Mobile" 
-          />
-        </Link>
+      <header className={ toggleDark ? "header-dark" : "header"}>
+        <label class="switch">
+          <input onClick={ toggleDarkAndWhite } type="checkbox"></input>
+          <span class="slider"></span>
+        </label>
         <img
           onClick={ toggleMode }
           className="menu-mobile"
@@ -28,10 +33,6 @@ function Header() {
         />
         <div className="list-desktop">
           <ul className="listItems-desktop">
-            <label class="switch">
-              <input type="checkbox"></input>
-              <span class="slider"></span>
-            </label>
             <Link className='btn-desktop' to="/works">
               <button
                 className='btn-desktop'
@@ -54,10 +55,6 @@ function Header() {
         {active && (
           <div className="list">
             <ul className="listItems">
-              <label class="switch">
-                <input type="checkbox"></input>
-                <span class="slider"></span>
-              </label>
               <Link to="/works">
                 <button
                   type="button"
