@@ -6,7 +6,8 @@ import './Header.css'
 import './toggleDark.css'
 import portfolioContext from '../context/PortfolioContext';
 
-function Header() {
+function Header(props) {
+  const { buttons } = props
   const { toggleDark, setToggleDark } = useContext(portfolioContext)
   const [active, setActive] = useState(false)
 
@@ -33,45 +34,49 @@ function Header() {
         />
         <div className="list-desktop">
           <ul className="listItems-desktop">
-            <Link className='btn-desktop' to="/works">
+            <Link className='btn-desktop' to={ buttons ? "/works" : "/"}>
               <button
                 className='btn-desktop'
                 type="button"
               >
-                <span class="text">Works</span>
+                <span class="text">{ buttons ? "Works" : "Home"}</span>
               </button>
             </Link>
-            <a className='btn-desktop' href='#about'>
-              <button
-                className='btn-desktop'
-                type="button"
-              >
-                <span class="text">About</span>
-              </button>
-            </a>
+            { buttons && (
+               <a className='btn-desktop' href='#about'>
+                <button
+                  className='btn-desktop'
+                  type="button"
+                >
+                  <span class="text">About</span>
+                </button>
+              </a>
+            )}
           </ul>
         </div>
       </header>
         {active && (
           <div className="list">
             <ul className="listItems">
-              <Link to="/works">
+              <Link to={ buttons ? "/works" : "/"}>
                 <button
                   type="button"
                   className='btn-mobile'
                 >
-                  <span class="text">Works</span>
+                  <span class="text">{ buttons ? "Works" : "Home"}</span>
                 </button>
               </Link>
-              <a className='btn-desktop' href='#about'>
-                <button
-                  type="button"
-                  className='btn-mobile'
-                  onClick={ toggleMode }
-                >
-                  <span class="text">About</span>
-                </button>
+              { buttons && (
+                <a className='btn-desktop' href='#about'>
+                  <button
+                    type="button"
+                    className='btn-mobile'
+                    onClick={ toggleMode }
+                  >
+                    <span class="text">About</span>
+                  </button>
                 </a>
+              )}
             </ul>
           </div>
         )}

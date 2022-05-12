@@ -13,7 +13,7 @@ function Home(props) {
 
   return (
     <>
-      <Header props={props} />
+      <Header props={props} buttons />
       <main className={toggleDark ? "main-home-dark" : "main-home"}>
         <section className="section1-home">
           <section className='div-home'>
