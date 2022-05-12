@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import menuRed from '../assets/menuRed.svg';
 import logo2 from '../assets/logo2.svg';
 import './Header.css'
+import './toggleDark.css'
 
-function Header(props) {
-  const { buttons } = props;
+function Header() {
   const [active, setActive] = useState(false)
   const toggleMode = () => {
     setActive(!active)
@@ -28,6 +28,10 @@ function Header(props) {
         />
         <div className="list-desktop">
           <ul className="listItems-desktop">
+            <label class="switch">
+              <input type="checkbox"></input>
+              <span class="slider"></span>
+            </label>
             <Link className='btn-desktop' to="/works">
               <button
                 className='btn-desktop'
@@ -50,6 +54,10 @@ function Header(props) {
         {active && (
           <div className="list">
             <ul className="listItems">
+              <label class="switch">
+                <input type="checkbox"></input>
+                <span class="slider"></span>
+              </label>
               <Link to="/works">
                 <button
                   type="button"
