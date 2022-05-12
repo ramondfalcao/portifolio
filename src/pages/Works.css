@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+.main-works-dark {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(5, 6, 45);;
+}
+
 .section-cards {
   display: grid;
   grid-template-columns: auto;
@@ -22,6 +29,19 @@
   transition: 0.5s;
   margin-top: 10px;
   color: rgb(5, 6, 45);
+  text-align: center;
+}
+
+.card-project-dark {
+  display: flex;
+  height: 70vh;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: whitesmoke;
   text-align: center;
 }
 

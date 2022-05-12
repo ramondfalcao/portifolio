@@ -63,14 +63,15 @@ function Header() {
                   <span class="text">Works</span>
                 </button>
               </Link>
-              <Link to="/about">
+              <a className='btn-desktop' href='#about'>
                 <button
                   type="button"
                   className='btn-mobile'
+                  onClick={ toggleMode }
                 >
                   <span class="text">About</span>
                 </button>
-              </Link>
+                </a>
             </ul>
           </div>
         )}

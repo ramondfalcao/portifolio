@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Header from '../components/Header';
 import logoTrybe from '../assets/logoTrybe.png';
 import { projects } from '../data';
 import './Works.css';
+import portfolioContext from '../context/PortfolioContext';
 
 function Works() {
+  const { toggleDark, setToggleDark } = useContext(portfolioContext)
   return (
     <>
       <Header buttons={ false } />
-      <main className="main-works">
+      <main className={toggleDark ? "main-works-dark" : "main-works"}>
         <section className="section-cards">
           {projects.map((project) => ( 
-            <div className='card-project' key={project.title}>
+            <div  className={toggleDark ? "card-project-dark" : "card-project"} key={project.title}>
               <img className="img-cards item" src={project.img} alt={project.title} />
               <div className="title-section">
                 <h4 className="title-cards item" >{project.title}</h4>
