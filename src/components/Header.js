@@ -4,7 +4,8 @@ import menuRed from '../assets/menuRed.svg';
 import logo2 from '../assets/logo2.svg';
 import './Header.css'
 
-function Header() {
+function Header(props) {
+  const { buttons } = props;
   const [active, setActive] = useState(false)
   const toggleMode = () => {
     setActive(!active)

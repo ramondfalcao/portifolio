@@ -1,5 +1,5 @@
 import trybeWallet from '../assets/trybeWallet.svg';
-import tryunfo from '../assets/tryunfo.png';
+import tryunfo from '../assets/tryunfo.svg';
 import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
 import triviaProject from '../assets/triviaProject.svg';
 import iconGithub from '../assets/iconGithub.svg';
@@ -12,22 +12,38 @@ export const projects = [
     deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
     repository: 'https://github.com/ramondfalcao/trybe-wallet',
     trybe: true,
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
   },
   {
     title: 'Tryunfo',
+    description: 'Neste projeto foi você pode criar sua próprias cartas personalizadas!',
+    img: tryunfo,
+    deploy: 'https://ramondfalcao.github.io/super-trunfo/',
+    repository: 'https://github.com/ramondfalcao/super-trunfo',
+    trybe: true,
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'To-do-List',
     description: 'Neste projeto foi desenvolvido um jogo no estilo Super Trunfo!',
     img: tryunfo,
     deploy: 'https://ramondfalcao.github.io/super-trunfo/',
     repository: 'https://github.com/ramondfalcao/super-trunfo',
     trybe: true,
+    bloco: "fundamentos",
+    tecs: ["react","js","html","css","redux"]
   },
   {
     title: 'Trivia',
     description: 'Um jogo no estilo quiz de perguntas e respostas!',
     img: triviaProject,
-    deploy: 'https://github.com/ramondfalcao/trivia-game',
+    deploy: 'https://ramondfalcao.github.io/trivia-game/',
     repository: 'https://github.com/ramondfalcao/trivia-game',
     trybe: true,
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
   },
   {
     title: 'App de receitas',
@@ -36,6 +52,8 @@ export const projects = [
     deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
     repository: 'https://github.com/ramondfalcao/trybe-wallet',
     trybe: true,
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
   },
 ]
 
