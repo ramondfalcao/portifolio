@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.333fc975.css",
-    "main.js": "/portifolio/static/js/main.04f51cb0.js",
+    "main.css": "/portifolio/static/css/main.fbe35523.css",
+    "main.js": "/portifolio/static/js/main.f374e64f.js",
+    "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.8dd041df67273ddead0d3dca7c5ee9c5.svg",
     "static/media/profileEdited.png": "/portifolio/static/media/profileEdited.43cb9ad3b6ad2b18ca6a.png",
     "static/media/trybeWallet.svg": "/portifolio/static/media/trybeWallet.119c67ff1b7b688543dc35f2db1fd7a0.svg",
     "static/media/tryunfo.svg": "/portifolio/static/media/tryunfo.a181d5c3469ec1f191500b8251023e63.svg",
-    "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.92affc5b90768d9199be56c589897900.svg",
     "static/media/triviaProject.svg": "/portifolio/static/media/triviaProject.21db56e1433693846c43427bb48c7780.svg",
     "static/media/imgHome.svg": "/portifolio/static/media/imgHome.bd510ae1a3d7a32426884a79773d7936.svg",
     "static/media/iconGithub2.svg": "/portifolio/static/media/iconGithub2.699c0f9a2c15fb17d07d209533eff0f6.svg",
@@ -14,11 +14,11 @@
     "static/media/logo2.svg": "/portifolio/static/media/logo2.05b4961464c8ebb8e3ffb69967be1e7f.svg",
     "index.html": "/portifolio/index.html",
     "static/media/menuRed.svg": "/portifolio/static/media/menuRed.2af3d7995b2e6b166c2d1c14aa4a89e2.svg",
-    "main.333fc975.css.map": "/portifolio/static/css/main.333fc975.css.map",
-    "main.04f51cb0.js.map": "/portifolio/static/js/main.04f51cb0.js.map"
+    "main.fbe35523.css.map": "/portifolio/static/css/main.fbe35523.css.map",
+    "main.f374e64f.js.map": "/portifolio/static/js/main.f374e64f.js.map"
   },
   "entrypoints": [
-    "static/css/main.333fc975.css",
-    "static/js/main.04f51cb0.js"
+    "static/css/main.fbe35523.css",
+    "static/js/main.f374e64f.js"
   ]
 }
