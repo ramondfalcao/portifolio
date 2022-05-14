@@ -2,6 +2,7 @@ import trybeWallet from '../assets/trybeWallet.svg';
 import tryunfo from '../assets/tryunfo.svg';
 import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
 import solarSystem from '../assets/solarSystem.svg';
+import imgToDoList from '../assets/imgToDoList.svg';
 import triviaProject from '../assets/triviaProject.svg';
 import iconGithub from '../assets/iconGithub.svg';
 
@@ -28,13 +29,23 @@ export const projects = [
   },
   {
     title: 'Solar System',
-    description: 'Meu primeiro projeto em React! Neste projeto desenvolvi um modelo do sistema solar, e informações sobre missões espaciais!',
+    description: 'Desenvolvi um modelo do sistema solar, e informações sobre missões espaciais!',
     img: solarSystem,
     deploy: 'https://ramondfalcao.github.io/solar-system/',
     repository: 'https://github.com/ramondfalcao/solar-system/tree/master',
     trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'To-do-List',
+    description: 'Um dos primeiro projetos na Trybe. Desenvolvi uma lista de tarefas!',
+    img: imgToDoList,
+    deploy: 'https://ramondfalcao.github.io/to-do-list/',
+    repository: 'https://github.com/ramondfalcao/to-do-list',
+    trybe: true,
+    bloco: "frontend",
+    tecs: ["html","css","js"]
   },
   {
     title: 'Trivia',
