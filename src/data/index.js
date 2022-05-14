@@ -1,6 +1,7 @@
 import trybeWallet from '../assets/trybeWallet.svg';
 import tryunfo from '../assets/tryunfo.svg';
 import sizesAppDeReceitas from '../assets/sizesAppDeReceitas.svg';
+import solarSystem from '../assets/solarSystem.svg';
 import triviaProject from '../assets/triviaProject.svg';
 import iconGithub from '../assets/iconGithub.svg';
 
@@ -25,16 +26,16 @@ export const projects = [
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
-  // {
-  //   title: 'To-do-List',
-  //   description: 'Neste projeto foi desenvolvido um jogo no estilo Super Trunfo!',
-  //   img: tryunfo,
-  //   deploy: 'https://ramondfalcao.github.io/super-trunfo/',
-  //   repository: 'https://github.com/ramondfalcao/super-trunfo',
-  //   trybe: true,
-  //   bloco: "fundamentos",
-  //   tecs: ["react","js","html","css","redux"]
-  // },
+  {
+    title: 'Solar System',
+    description: 'Meu primeiro projeto em React! Neste projeto desenvolvi um modelo do sistema solar, e informações sobre missões espaciais!',
+    img: solarSystem,
+    deploy: 'https://ramondfalcao.github.io/solar-system/',
+    repository: 'https://github.com/ramondfalcao/solar-system/tree/master',
+    trybe: true,
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
   {
     title: 'Trivia',
     description: 'Um jogo no estilo quiz de perguntas e respostas!',
