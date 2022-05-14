@@ -25,16 +25,16 @@ export const projects = [
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
-  {
-    title: 'To-do-List',
-    description: 'Neste projeto foi desenvolvido um jogo no estilo Super Trunfo!',
-    img: tryunfo,
-    deploy: 'https://ramondfalcao.github.io/super-trunfo/',
-    repository: 'https://github.com/ramondfalcao/super-trunfo',
-    trybe: true,
-    bloco: "fundamentos",
-    tecs: ["react","js","html","css","redux"]
-  },
+  // {
+  //   title: 'To-do-List',
+  //   description: 'Neste projeto foi desenvolvido um jogo no estilo Super Trunfo!',
+  //   img: tryunfo,
+  //   deploy: 'https://ramondfalcao.github.io/super-trunfo/',
+  //   repository: 'https://github.com/ramondfalcao/super-trunfo',
+  //   trybe: true,
+  //   bloco: "fundamentos",
+  //   tecs: ["react","js","html","css","redux"]
+  // },
   {
     title: 'Trivia',
     description: 'Um jogo no estilo quiz de perguntas e respostas!',
@@ -49,8 +49,8 @@ export const projects = [
     title: 'App de receitas',
     description: 'Um app onde você pode aprender várias receitas de comidas e drinks!',
     img: sizesAppDeReceitas,
-    deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
-    repository: 'https://github.com/ramondfalcao/trybe-wallet',
+    deploy: 'https://ramondfalcao-app-de-receitas.netlify.app/',
+    repository: 'https://github.com/ramondfalcao/app-de-receitas',
     trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
