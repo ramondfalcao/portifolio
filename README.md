@@ -19,6 +19,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ReactRouter](https://reactrouter.com/docs/en/v6)
 - [ContextApi](https://reactjs.org/docs/context.html)
 
+## Mobile First 
+
+Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e 
+
+desenvolvimento é direcionado aos dispositivos móveis.
+
+![img](mobile.svg)
+
 ## Dark Mode 
 
 ![img](img-dark-mode.svg)
