@@ -127,13 +127,38 @@
   transform: scale(0.9);
  }
 
+  /* IPAD SIZE */
+
+  @media only screen and (min-width: 500px) and (max-width: 850px)  {
+  .section-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .card-project {
+    height: 40vh;
+    margin-top: 20px;
+  }
+  
+  .img-cards {
+    border-radius: 5%;
+  }
+
+  .img-cards:hover {
+    transform: scale(1.1);
+  }
+}
+
 
  /* DESKTOP SIZE */
 
 @media only screen and (min-width: 850px) {
   .section-cards {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     column-gap: 100px;
     justify-content: center;
     width: 50%;
