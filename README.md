@@ -1,7 +1,5 @@
-#  <h1 align="center">Meu Portfolio</h1>
+#  <h1 align="center">Seja bem-vindo ao meu portfolio!</h1>
 ![img](img-portifolio.svg)
-
-# Seja bem-vindo ao meu portfolio!
 
 ## O que foi desenvolvido
 
