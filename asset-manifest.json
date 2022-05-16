@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portifolio/static/css/main.2b042551.css",
-    "main.js": "/portifolio/static/js/main.b5d52181.js",
+    "main.js": "/portifolio/static/js/main.e4f4e2ca.js",
     "static/media/solarSystem.svg": "/portifolio/static/media/solarSystem.9d224867c8c2b618dd87057507fc2b7f.svg",
     "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.8dd041df67273ddead0d3dca7c5ee9c5.svg",
-    "static/media/profileEdited.png": "/portifolio/static/media/profileEdited.43cb9ad3b6ad2b18ca6a.png",
+    "static/media/profileWhite.png": "/portifolio/static/media/profileWhite.d5d5c00af06d32069f6b.png",
     "static/media/trybeWallet.svg": "/portifolio/static/media/trybeWallet.119c67ff1b7b688543dc35f2db1fd7a0.svg",
     "static/media/tryunfo.svg": "/portifolio/static/media/tryunfo.a181d5c3469ec1f191500b8251023e63.svg",
     "static/media/imgToDoList.svg": "/portifolio/static/media/imgToDoList.2119f9fd1c3c0b17623bb50e7d1d6fc4.svg",
@@ -17,10 +17,10 @@
     "index.html": "/portifolio/index.html",
     "static/media/menuRed.svg": "/portifolio/static/media/menuRed.2af3d7995b2e6b166c2d1c14aa4a89e2.svg",
     "main.2b042551.css.map": "/portifolio/static/css/main.2b042551.css.map",
-    "main.b5d52181.js.map": "/portifolio/static/js/main.b5d52181.js.map"
+    "main.e4f4e2ca.js.map": "/portifolio/static/js/main.e4f4e2ca.js.map"
   },
   "entrypoints": [
     "static/css/main.2b042551.css",
-    "static/js/main.b5d52181.js"
+    "static/js/main.e4f4e2ca.js"
   ]
 }
