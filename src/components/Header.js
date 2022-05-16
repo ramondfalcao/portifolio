@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-import menuRed from '../assets/menuRed.svg';
+import menuDark from '../assets/menuDark.svg';
+import menuWhite from '../assets/menuWhite.svg';
 import logo2 from '../assets/logo2.svg';
 import './Header.css'
 import './toggleDark.css'
@@ -29,7 +30,7 @@ function Header(props) {
         <img
           onClick={ toggleMode }
           className="menu-mobile"
-          src={menuRed}
+          src={ toggleDark ? menuWhite : menuDark }
           alt="Menu Mobile" 
         />
         <div className="list-desktop">
