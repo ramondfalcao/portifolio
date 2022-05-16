@@ -9,7 +9,7 @@ import iconGithub from '../assets/iconGithub.svg';
 export const projects = [
   {
     title: 'Trybe Wallet',
-    description: 'Carteira de controle de gastos com conversor de moedas.',
+    description: 'Expense control wallet with currency converter.',
     img: trybeWallet,
     deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
     repository: 'https://github.com/ramondfalcao/trybe-wallet',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Tryunfo',
-    description: 'Neste projeto foi você pode criar sua próprias cartas personalizadas!',
+    description: 'In this project you can create your own personalized letters!',
     img: tryunfo,
     deploy: 'https://ramondfalcao.github.io/super-trunfo/',
     repository: 'https://github.com/ramondfalcao/super-trunfo',
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: 'Solar System',
-    description: 'Desenvolvi um modelo do sistema solar, e informações sobre missões espaciais!',
+    description: 'I developed a model of the solar system, and information about space missions!',
     img: solarSystem,
     deploy: 'https://ramondfalcao.github.io/solar-system/',
     repository: 'https://github.com/ramondfalcao/solar-system/tree/master',
@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     title: 'To-do-List',
-    description: 'Um dos primeiro projetos na Trybe. Desenvolvi uma lista de tarefas!',
+    description: 'One of the first projects at Trybe. I developed a to-do list!',
     img: imgToDoList,
     deploy: 'https://ramondfalcao.github.io/to-do-list/',
     repository: 'https://github.com/ramondfalcao/to-do-list',
@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     title: 'Trivia',
-    description: 'Um jogo no estilo quiz de perguntas e respostas!',
+    description: 'A quiz-style game of questions and answers!',
     img: triviaProject,
     deploy: 'https://ramondfalcao.github.io/trivia-game/',
     repository: 'https://github.com/ramondfalcao/trivia-game',
@@ -58,8 +58,8 @@ export const projects = [
     tecs: ["react","js","html","css","redux"]
   },
   {
-    title: 'App de receitas',
-    description: 'Um app onde você pode aprender várias receitas de comidas e drinks!',
+    title: 'Recipes app',
+    description: 'An app where you can learn various food and drink recipes!',
     img: sizesAppDeReceitas,
     deploy: 'https://ramondfalcao-app-de-receitas.netlify.app/',
     repository: 'https://github.com/ramondfalcao/app-de-receitas',
