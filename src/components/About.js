@@ -1,5 +1,5 @@
 import React from 'react';
-import profileEdited from '../assets/profileEdited.png';
+import profileWhite from '../assets/profileWhite.png';
 import logoGmail2 from '../assets/logoGmail2.svg';
 import iconGithub2 from '../assets/iconGithub2.svg';
 import './About.css';
@@ -10,7 +10,7 @@ function About() {
     <section className="about-section" id="about">
       <div className='section-profile'>
         <div class="card-profile">
-          <img className="profile-img" alt='profile_Picture' src={profileEdited} />
+          <img className="profile-img" alt='profile_Picture' src={profileWhite} />
           <h2>Ramond Falcão</h2>
           <p>Front End Developer</p>
           <div className='icons'>
