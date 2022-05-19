@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import menuDark from '../assets/menuDark.svg';
 import menuWhite from '../assets/menuWhite.svg';
-import logo2 from '../assets/logo2.svg';
 import './Header.css'
 import './toggleDark.css'
 import portfolioContext from '../context/PortfolioContext';

@@ -1,12 +1,11 @@
 import React, { useContext } from 'react';
 import Header from '../components/Header';
-import logoTrybe from '../assets/logoTrybe.png';
 import { projects } from '../data';
 import './Works.css';
 import portfolioContext from '../context/PortfolioContext';
 
 function Works() {
-  const { toggleDark, setToggleDark } = useContext(portfolioContext)
+  const { toggleDark } = useContext(portfolioContext)
   return (
     <>
       <Header buttons={ false } />
@@ -17,9 +16,6 @@ function Works() {
               <img className="img-cards item" src={project.img} alt={project.title} />
               <div className="title-section">
                 <h4 className="title-cards item" >{project.title}</h4>
-                {project.trybe && (
-                  <img id="logo-trybe" alt="logo-trybe" src={logoTrybe}/>
-                )}
               </div>
               <p className="description-cards item">{project.description}</p>
               <div className='btn-cards'>

@@ -13,7 +13,6 @@ export const projects = [
     img: trybeWallet,
     deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
     repository: 'https://github.com/ramondfalcao/trybe-wallet',
-    trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
@@ -23,7 +22,6 @@ export const projects = [
     img: tryunfo,
     deploy: 'https://ramondfalcao.github.io/super-trunfo/',
     repository: 'https://github.com/ramondfalcao/super-trunfo',
-    trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
@@ -33,7 +31,6 @@ export const projects = [
     img: solarSystem,
     deploy: 'https://ramondfalcao.github.io/solar-system/',
     repository: 'https://github.com/ramondfalcao/solar-system/tree/master',
-    trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
@@ -43,7 +40,6 @@ export const projects = [
     img: imgToDoList,
     deploy: 'https://ramondfalcao.github.io/to-do-list/',
     repository: 'https://github.com/ramondfalcao/to-do-list',
-    trybe: true,
     bloco: "frontend",
     tecs: ["html","css","js"]
   },
@@ -53,7 +49,6 @@ export const projects = [
     img: triviaProject,
     deploy: 'https://ramondfalcao.github.io/trivia-game/',
     repository: 'https://github.com/ramondfalcao/trivia-game',
-    trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
@@ -63,7 +58,6 @@ export const projects = [
     img: sizesAppDeReceitas,
     deploy: 'https://ramondfalcao-app-de-receitas.netlify.app/',
     repository: 'https://github.com/ramondfalcao/app-de-receitas',
-    trybe: true,
     bloco: "frontend",
     tecs: ["react","js","html","css","redux"]
   },
