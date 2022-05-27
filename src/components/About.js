@@ -6,10 +6,28 @@ import './About.css';
 import Skills from './Skills';
 
 function About() {
+
+  const target = document.querySelectorAll('[data-anime]')
+  const animateClass = 'animate';
+
+  const animeScroll = () => {
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    target.forEach((element) => {
+      if(windowTop > element.offsetTop) {
+        element.classList.add(animateClass)
+      }
+    })
+    console.log(windowTop);
+  }
+  window.addEventListener('scroll', () => {
+    animeScroll();
+  })
+
+  console.log(target);
   return (
     <section className="about-section" id="about">
       <div className='section-profile'>
-        <div class="card-profile">
+        <div class="card-profile" data-anime="left">
           <img className="profile-img" alt='profile_Picture' src={profileWhite} />
           <h2>Ramond Falcão</h2>
           <p>Front End Developer</p>

@@ -4,7 +4,7 @@ import { technologies } from "../data"
 
 export function Skills() {
   return (
-    <section className="technologies-container">
+    <section className="technologies-container" data-anime="left">
       {/* <h2>Technologies</h2> */}
       <div className="cards">
         {technologies.map((tec, index) => (
