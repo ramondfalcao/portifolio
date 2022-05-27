@@ -35,8 +35,6 @@
   /* border-right: 2px solid black; */
   margin-bottom: 20px;
   color: rgb(5, 6, 45); 
-  white-space: nowrap;
-  overflow: hidden;
   font-size: 25px;
 }
 
@@ -62,20 +60,6 @@
   color:  whitesmoke
 }
 
-.typing-animation {
-  animation: cursor 500ms infinite normal,
-    typing 4s 1s normal;
-}
-
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
 /* 
 @keyframes cursor {
   from {
@@ -162,9 +146,13 @@
     margin-left: 40px;
   }
   
-  #title {
+  .title{
+    /* border-right: 2px solid black; */
     margin-bottom: 20px;
-    font-size: 44px;
+    color: rgb(5, 6, 45); 
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 25px;
   }
 
   #paragraph {
@@ -174,5 +162,20 @@
 
   #button-work-main{
     max-width: 20%;
+  }
+
+  .typing-animation {
+    animation: cursor 500ms infinite normal,
+      typing 4s 1s normal;
+  }
+  
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }
 }
