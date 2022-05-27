@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import profileWhite from '../assets/profileWhite.png';
 import logoGmail2 from '../assets/logoGmail2.svg';
 import iconGithub2 from '../assets/iconGithub2.svg';
@@ -7,27 +7,25 @@ import Skills from './Skills';
 
 function About() {
 
-  const target = document.querySelectorAll('[data-anime]')
-  const animateClass = 'animate';
+  const [ scroll, setScroll ] = useState(false);
 
   const animeScroll = () => {
+    const target = document.querySelectorAll('[data-anime]')
     const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach((element) => {
       if(windowTop > element.offsetTop) {
-        element.classList.add(animateClass)
+        setScroll(true)
       }
     })
-    console.log(windowTop);
   }
   window.addEventListener('scroll', () => {
     animeScroll();
   })
 
-  console.log(target);
   return (
     <section className="about-section" id="about">
       <div className='section-profile'>
-        <div class="card-profile" data-anime="left">
+        <div class={`card-profile ${scroll && 'animate'}`} data-anime="left">
           <img className="profile-img" alt='profile_Picture' src={profileWhite} />
           <h2>Ramond Falcão</h2>
           <p>Front End Developer</p>
@@ -56,7 +54,7 @@ function About() {
           </div>
          </div> 
       </div>
-      <Skills />
+      <Skills scroll={scroll} />
     </section>
   );
 }

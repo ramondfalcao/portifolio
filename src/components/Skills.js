@@ -2,9 +2,9 @@ import React from "react"
 import "./Skills.css"
 import { technologies } from "../data"
 
-export function Skills() {
+export function Skills({ scroll }) {
   return (
-    <section className="technologies-container" data-anime="left">
+    <section className={`technologies-container ${scroll && 'animate'}`} data-anime="left">
       {/* <h2>Technologies</h2> */}
       <div className="cards">
         {technologies.map((tec, index) => (

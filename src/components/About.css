@@ -56,7 +56,7 @@
 
 [data-anime] {
   opacity: 0;
-  transition: .3s;
+  transition: .5s;
 }
 
 [data-anime="left"] {
