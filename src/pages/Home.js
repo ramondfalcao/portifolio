@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import Header from '../components/Header';
 import './Home.css'
 import './button.css'
@@ -9,7 +9,7 @@ import portfolioContext from '../context/PortfolioContext';
 
 function Home(props) {
   const {history} = props
-  const { toggleDark, setToggleDark } = useContext(portfolioContext)
+  const { toggleDark, setToggleDark } = useContext(portfolioContext);
 
   return (
     <>
@@ -17,8 +17,8 @@ function Home(props) {
       <main className={toggleDark ? "main-home-dark" : "main-home"}>
         <section className="section1-home">
           <section className='div-home'>
-            <h1 className={toggleDark ? "title-dark" : "title"}>Hi, I'm Ramond Falcão, a Front End developer.</h1>
-            <p className={toggleDark ? "paragraph-dark " : "paragraph"}>I am passionate about developing Front End applications, while working collaboratively and solving user problems.</p>
+            <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>Hi, I'm Ramond Falcão, a Front End developer.</h1>
+            <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>I am passionate about developing Front End applications, while working collaboratively and solving user problems.</p>
             <button
               onClick={() => history.push('/works')}
               type="button"
