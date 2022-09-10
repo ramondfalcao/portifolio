@@ -20,7 +20,7 @@ function Home(props) {
             <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>
               { languageButton
                 ? `Hi, I'm Ramond Falcão, a Fullstack developer jr.`
-                : `Olá, sou Ramond Falcão, Desenvolvedor Fullstack jr.`
+                : `Olá, sou Ramond Falcão, Desenvolvedor Fullstack.`
               }
               </h1>
             <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
