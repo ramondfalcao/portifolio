@@ -9,7 +9,7 @@ import portfolioContext from '../context/PortfolioContext';
 
 function Home(props) {
   const {history} = props
-  const { toggleDark, setToggleDark, languageButton } = useContext(portfolioContext);
+  const { toggleDark, languageButton } = useContext(portfolioContext);
 
   return (
     <>

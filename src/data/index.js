@@ -120,6 +120,25 @@ export const projectsPortuguese = [
   },
 ]
 
+export const projectsBackendPortuguese = [
+  {
+    title: 'Blogs Api',
+    description: 'Api para produção de conteúdo para um blog.',
+    img: trybeWallet,
+    deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
+    repository: 'https://github.com/ramondfalcao/trybe-wallet',
+    bloco: "backend",
+  },
+  {
+    title: 'Trybe Futebol Clube',
+    description: 'O TFC é um site informativo sobre partidas e classificações de futebol!',
+    img: tryunfo,
+    deploy: '',
+    repository: 'https://github.com/ramondfalcao/project-blogs-api',
+    bloco: "backend",
+  },
+]
+
 export const technologies = [
   {
     name: 'Html',

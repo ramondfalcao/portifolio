@@ -75,6 +75,13 @@ function Header(props) {
         {active && (
           <div className="list">
             <ul className="listItems">
+              <button
+                onClick={ toggleLanguage }
+                className='btn-translate'
+                type="button"
+              >
+                🇧🇷 🇺🇸 
+              </button>
               <Link to={ buttons ? "/works" : "/"}>
                 <button
                   type="button"
