@@ -9,7 +9,7 @@ import portfolioContext from '../context/PortfolioContext';
 
 function Home(props) {
   const {history} = props
-  const { toggleDark, setToggleDark } = useContext(portfolioContext);
+  const { toggleDark, setToggleDark, languageButton } = useContext(portfolioContext);
 
   return (
     <>
@@ -17,8 +17,18 @@ function Home(props) {
       <main className={toggleDark ? "main-home-dark" : "main-home"}>
         <section className="section1-home">
           <section className='div-home'>
-            <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>Hi, I'm Ramond Falcão, a Front End developer.</h1>
-            <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>I am passionate about developing Front End applications, while working collaboratively and solving user problems.</p>
+            <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>
+              { languageButton
+                ? `Hi, I'm Ramond Falcão, a Fullstack developer jr.`
+                : `Olá, sou Ramond Falcão, Desenvolvedor Fullstack jr.`
+              }
+              </h1>
+            <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
+            { languageButton
+                ? ` I am passionate about developing Front End applications, while working collaboratively and solving user problems.`
+                : `Sou apaixonado por desenvolver aplicações, trabalhando de forma colaborativa e resolvendo problemas de usuários.`
+            }
+              </p>
             <button
               onClick={() => history.push('/works')}
               type="button"

@@ -8,7 +8,12 @@ import portfolioContext from '../context/PortfolioContext';
 
 function Header(props) {
   const { buttons } = props
-  const { toggleDark, setToggleDark } = useContext(portfolioContext)
+  const {
+    toggleDark,
+    setToggleDark,
+    languageButton,
+    setLanguageButton,
+  } = useContext(portfolioContext)
   const [active, setActive] = useState(false)
 
   const toggleMode = () => {
@@ -19,6 +24,11 @@ function Header(props) {
     setToggleDark(!toggleDark)
   }
 
+  const toggleLanguage = () => {
+    setLanguageButton(!languageButton)
+  }
+
+  console.log(languageButton);
   return (
     <>
       <header className={ toggleDark ? "header-dark" : "header"}>
@@ -34,6 +44,13 @@ function Header(props) {
         />
         <div className="list-desktop">
           <ul className="listItems-desktop">
+              <button
+                onClick={ toggleLanguage }
+                className='btn-translate'
+                type="button"
+              >
+                🇧🇷 🇺🇸 
+              </button>
             <Link className='btn-desktop' to={ buttons ? "/works" : "/"}>
               <button
                 className='btn-desktop'
@@ -62,7 +79,7 @@ function Header(props) {
                 <button
                   type="button"
                   className='btn-mobile'
-                >
+                > 
                   <span class="text">{ buttons ? "Works" : "Home"}</span>
                 </button>
               </Link>

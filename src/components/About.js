@@ -28,7 +28,7 @@ function About() {
         <div class={`card-profile ${scroll && 'animate'}`} data-anime="left">
           <img className="profile-img" alt='profile_Picture' src={profileWhite} />
           <h2>Ramond Falcão</h2>
-          <p>Front End Developer</p>
+          <p>Fullstack Developer Jr</p>
           <div className='icons'>
             <a rel="noreferrer" className="img-icon" target="_blank" href='https://github.com/ramondfalcao'>
                 <img

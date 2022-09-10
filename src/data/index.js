@@ -63,6 +63,63 @@ export const projects = [
   },
 ]
 
+export const projectsPortuguese = [
+  {
+    title: 'Trybe Wallet',
+    description: 'Carteira de controle de despesas com conversor de moeda.',
+    img: trybeWallet,
+    deploy: 'https://ramondfalcao.github.io/trybe-wallet/',
+    repository: 'https://github.com/ramondfalcao/trybe-wallet',
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'Tryunfo',
+    description: 'Neste projeto você pode criar suas próprias cartas personalizadas!',
+    img: tryunfo,
+    deploy: 'https://ramondfalcao.github.io/super-trunfo/',
+    repository: 'https://github.com/ramondfalcao/super-trunfo',
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'Solar System',
+    description: 'Desenvolvi um modelo do sistema solar e informações sobre missões espaciais!',
+    img: solarSystem,
+    deploy: 'https://ramondfalcao.github.io/solar-system/',
+    repository: 'https://github.com/ramondfalcao/solar-system/tree/master',
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'To-do-List',
+    description: 'Um dos primeiros projetos da Trybe. Eu desenvolvi uma lista de tarefas!',
+    img: imgToDoList,
+    deploy: 'https://ramondfalcao.github.io/to-do-list/',
+    repository: 'https://github.com/ramondfalcao/to-do-list',
+    bloco: "frontend",
+    tecs: ["html","css","js"]
+  },
+  {
+    title: 'Trivia',
+    description: 'Um jogo de perguntas e respostas no estilo quiz!',
+    img: triviaProject,
+    deploy: 'https://ramondfalcao.github.io/trivia-game/',
+    repository: 'https://github.com/ramondfalcao/trivia-game',
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+  {
+    title: 'Recipes app',
+    description: 'Um aplicativo onde você pode aprender várias receitas de comida e bebida!',
+    img: sizesAppDeReceitas,
+    deploy: 'https://ramondfalcao-app-de-receitas.netlify.app/',
+    repository: 'https://github.com/ramondfalcao/app-de-receitas',
+    bloco: "frontend",
+    tecs: ["react","js","html","css","redux"]
+  },
+]
+
 export const technologies = [
   {
     name: 'Html',
