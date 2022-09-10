@@ -31,7 +31,6 @@ desenvolvimento é direcionado aos dispositivos móveis.
 
 ## Implementações futuras 
 
-- Botão Translate
 - Tecnologias Back-End
 
 
