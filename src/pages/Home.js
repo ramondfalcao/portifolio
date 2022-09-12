@@ -25,7 +25,7 @@ function Home(props) {
               </h1>
             <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
             { languageButton
-                ? ` I am passionate about developing Front End applications, while working collaboratively and solving user problems.`
+                ? ` I am passionate about developing applications, while working collaboratively and solving user problems.`
                 : `Sou apaixonado por desenvolver aplicações, trabalhando de forma colaborativa e resolvendo problemas de usuários.`
             }
               </p>
