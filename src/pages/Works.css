@@ -34,7 +34,7 @@
 
 .card-project-dark {
   display: flex;
-  height: 70vh;
+  height: 60vh;
   margin-top: 40px;
   justify-content: center;
   align-items: center;
@@ -54,8 +54,13 @@
 
 .card-project-backend {
   width: 20rem;
-  height: 60vh;
   margin-top: 40px;
+}
+
+.card-project-backend-dark {
+  width: 20rem;
+  margin-top: 40px;
+  color: white;
 }
 
 .title-section {
@@ -85,6 +90,9 @@
 }
 
 .btn-projects-section-dark {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: rgb(5, 6, 45);
 }
 
@@ -98,6 +106,14 @@
   padding: 10px;
   margin-right: 10px;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#btn-stacks-dark {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 

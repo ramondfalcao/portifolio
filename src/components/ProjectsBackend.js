@@ -13,7 +13,7 @@ export function ProjectsBackend({ scroll }) {
         { languageButton
           ? <section className="section-cards">
           { projectsBackend.map((project) => ( 
-            <div  className={toggleDark ? "card-project-dark" : "card-project-backend"} key={project.title}>
+            <div  className={toggleDark ? "card-project-backend-dark" : "card-project-backend"} key={project.title}>
               <img className="img-cards item" id="img-backend-card" src={project.img} alt={project.title} />
               <div className="title-section">
                 <h4 className="title-cards item" >{project.title}</h4>
@@ -35,7 +35,7 @@ export function ProjectsBackend({ scroll }) {
         </section>
           : <section className="section-cards">
           { projectsBackendPortuguese.map((project) => ( 
-            <div  className={toggleDark ? "card-project-dark" : "card-project-backend"} key={project.title}>
+            <div  className={toggleDark ? "card-project-backend-dark" : "card-project-backend"} key={project.title}>
               <img className="img-cards item" id="img-backend-card" src={project.img} alt={project.title} />
               <div className="title-section">
                 <h4 className="title-cards item" >{project.title}</h4>

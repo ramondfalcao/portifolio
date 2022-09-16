@@ -21,14 +21,14 @@ function Works() {
         <div
           onClick={() => setStackProjects(true)}
           className={ stackProjects ? "btn-stacks btn-stack-selected" : "btn-stacks"}
-          id='btn-stack'
+          id={ toggleDark ? "btn-stacks-dark" : "btn-stacks"}
           type="button">
            <span class="text">Frontend Projects</span>
         </div>
         <div
           onClick={() => setStackProjects(false)}
           className={ stackProjects ? "btn-stacks" : "btn-stacks btn-stack-selected"}
-          id='btn-stack'
+          id={ toggleDark ? "btn-stacks-dark" : "btn-stacks"}
           type="button">
            <span class="text">Backend Projects</span>
         </div>
