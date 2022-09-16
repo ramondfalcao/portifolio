@@ -30,7 +30,6 @@ function Header(props) {
     setLanguageButton(!languageButton)
   }
 
-  console.log(languageButton);
   return (
     <>
       <header className={ toggleDark ? "header-dark" : "header"}>

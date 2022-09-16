@@ -5,12 +5,15 @@ import portfolioContext from './PortfolioContext';
 function PortifolioProvider({ children }) {
   const [toggleDark, setToggleDark] = useState(false);
   const [languageButton, setLanguageButton] = useState(true);
+  const [stackProjects, setStackProjects] = useState(true);
 
   const contextValue = {
     toggleDark,
     setToggleDark,
     languageButton,
     setLanguageButton,
+    stackProjects,
+    setStackProjects,
   };
 
   return (

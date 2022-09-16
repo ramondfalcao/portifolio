@@ -21,7 +21,7 @@
 
 .card-project {
   display: flex;
-  height: 70vh;
+  height: 60vh;
   margin-top: 40px;
   justify-content: center;
   align-items: center;
@@ -43,11 +43,23 @@
   margin-top: 10px;
   color: whitesmoke;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cards-backend {
+  display: flex;
+  justify-content: center;
+}
+
+.card-project-backend {
+  width: 20rem;
+  height: 60vh;
+  margin-top: 40px;
 }
 
 .title-section {
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,6 +82,27 @@
 
 .title-cards {
   font-size: 30px;
+}
+
+.btn-projects-section-dark {
+  background-color: rgb(5, 6, 45);
+}
+
+.btn-projects-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-stacks {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-stack-selected {
+  border-bottom: 2px solid #5B42F3;
 }
 
 
@@ -162,6 +195,12 @@
     column-gap: 100px;
     justify-content: center;
     width: 50%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-project {
+    height: 70vh;
   }
   .img-cards {
     border-radius: 5%;
@@ -169,5 +208,22 @@
 
   .img-cards:hover {
     transform: scale(1.1);
+  }
+
+  .btn-projects-section-dark {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-cards-backend {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-project-backend {
+    width: 20rem;
+    height: 70vh;
   }
 }

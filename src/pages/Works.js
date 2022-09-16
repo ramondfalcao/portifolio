@@ -1,80 +1,42 @@
 import React, { useContext } from 'react';
 import Header from '../components/Header';
-import { projects, projectsPortuguese } from '../data';
 import './Works.css';
 import portfolioContext from '../context/PortfolioContext';
+import ProjectsFrontend from '../components/ProjectsFrontend';
+import ProjectsBackend from '../components/ProjectsBackend';
 
 function Works() {
-  const { toggleDark, languageButton } = useContext(portfolioContext)
+  const {
+    stackProjects,
+    setStackProjects,
+    toggleDark,
+  } = useContext(portfolioContext)
+
+  console.log(stackProjects);
+  
   return (
     <>
       <Header buttons={ false } />
-      <main className={ toggleDark ? "main-works-dark" : "main-works"}>
-        { languageButton
-          ? <section className="section-cards">
-          { projects.map((project) => ( 
-            <div  className={toggleDark ? "card-project-dark" : "card-project"} key={project.title}>
-              <img className="img-cards item" src={project.img} alt={project.title} />
-              <div className="title-section">
-                <h4 className="title-cards item" >{project.title}</h4>
-              </div>
-              <p className="description-cards item">{project.description}</p>
-              <div className='btn-cards'>
-                <a 
-                  href={project.deploy}
-                  target="_blank"
-                  rel='noreferrer'
-                >
-                  <button className='btn-works' type="button">
-                    <span class="text">Deploy</span>
-                  </button>
-                </a>
-                <a 
-                  href={project.repository}
-                  target="_blank"
-                  rel='noreferrer'
-                >
-                  <button className='btn-works' type="button">
-                    <span class="text">Repository</span>
-                  </button>
-                </a>
-              </div>
-            </div>
-          ))}
-        </section>
-          : <section className="section-cards">
-          { projectsPortuguese.map((project) => ( 
-            <div  className={toggleDark ? "card-project-dark" : "card-project"} key={project.title}>
-              <img className="img-cards item" src={project.img} alt={project.title} />
-              <div className="title-section">
-                <h4 className="title-cards item" >{project.title}</h4>
-              </div>
-              <p className="description-cards item">{project.description}</p>
-              <div className='btn-cards'>
-                <a 
-                  href={project.deploy}
-                  target="_blank"
-                  rel='noreferrer'
-                >
-                  <button className='btn-works' type="button">
-                    <span class="text">Deploy</span>
-                  </button>
-                </a>
-                <a 
-                  href={project.repository}
-                  target="_blank"
-                  rel='noreferrer'
-                >
-                  <button className='btn-works' type="button">
-                    <span class="text">Repository</span>
-                  </button>
-                </a>
-              </div>
-            </div>
-          ))}
-        </section>
-        }
-      </main>
+      <section className={ toggleDark ? "btn-projects-section-dark" : "btn-projects-section"}>
+        <div
+          onClick={() => setStackProjects(true)}
+          className={ stackProjects ? "btn-stacks btn-stack-selected" : "btn-stacks"}
+          id='btn-stack'
+          type="button">
+           <span class="text">Frontend Projects</span>
+        </div>
+        <div
+          onClick={() => setStackProjects(false)}
+          className={ stackProjects ? "btn-stacks" : "btn-stacks btn-stack-selected"}
+          id='btn-stack'
+          type="button">
+           <span class="text">Backend Projects</span>
+        </div>
+      </section>
+      { stackProjects 
+        ? <ProjectsFrontend />
+        : (<ProjectsBackend />)
+      }
     </>
   );
 }
