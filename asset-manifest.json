@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.7e181450.css",
-    "main.js": "/portifolio/static/js/main.eb6a6daa.js",
+    "main.css": "/portifolio/static/css/main.e5604c99.css",
+    "main.js": "/portifolio/static/js/main.28d8743e.js",
     "static/media/solarSystem.svg": "/portifolio/static/media/solarSystem.9d224867c8c2b618dd87057507fc2b7f.svg",
     "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.8dd041df67273ddead0d3dca7c5ee9c5.svg",
     "static/media/profileWhite.png": "/portifolio/static/media/profileWhite.d5d5c00af06d32069f6b.png",
@@ -13,14 +13,16 @@
     "static/media/iconGithub2.svg": "/portifolio/static/media/iconGithub2.699c0f9a2c15fb17d07d209533eff0f6.svg",
     "static/media/logoGmail2.svg": "/portifolio/static/media/logoGmail2.b83e6b61f1bf0a48d4049ca8d2e8b1ce.svg",
     "static/media/iconGithub.svg": "/portifolio/static/media/iconGithub.2f957a686246d2a3ec547a17a03b04f2.svg",
+    "static/media/brazil.png": "/portifolio/static/media/brazil.4daec62870c4385b8871.png",
+    "static/media/united-states.png": "/portifolio/static/media/united-states.348322a7eb6fa906d005.png",
     "index.html": "/portifolio/index.html",
     "static/media/menuWhite.svg": "/portifolio/static/media/menuWhite.581ba5eed11dcf7d19f231c6313d35b7.svg",
     "static/media/menuDark.svg": "/portifolio/static/media/menuDark.2af3d7995b2e6b166c2d1c14aa4a89e2.svg",
-    "main.7e181450.css.map": "/portifolio/static/css/main.7e181450.css.map",
-    "main.eb6a6daa.js.map": "/portifolio/static/js/main.eb6a6daa.js.map"
+    "main.e5604c99.css.map": "/portifolio/static/css/main.e5604c99.css.map",
+    "main.28d8743e.js.map": "/portifolio/static/js/main.28d8743e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e181450.css",
-    "static/js/main.eb6a6daa.js"
+    "static/css/main.e5604c99.css",
+    "static/js/main.28d8743e.js"
   ]
 }
