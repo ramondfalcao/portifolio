@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import menuDark from '../assets/menuDark.svg';
 import menuWhite from '../assets/menuWhite.svg';
+import brazilFlag from '../assets/brazil.png';
+import usFlag from '../assets/united-states.png';
 import './Header.css'
 import './toggleDark.css'
 import portfolioContext from '../context/PortfolioContext';
@@ -49,7 +51,8 @@ function Header(props) {
                 className='btn-translate'
                 type="button"
               >
-                🇧🇷 🇺🇸 
+                <img className="img-flag" src={brazilFlag} alt="" />
+                <img className="img-flag" src={usFlag} alt="" />
               </button>
             <Link className='btn-desktop' to={ buttons ? "/works" : "/"}>
               <button
