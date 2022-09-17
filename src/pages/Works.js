@@ -35,7 +35,7 @@ function Works() {
       </section>
       { stackProjects 
         ? <ProjectsFrontend />
-        : (<ProjectsBackend />)
+        : <ProjectsBackend />
       }
     </>
   );
