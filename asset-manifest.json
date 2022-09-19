@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.a4fb2fb2.css",
-    "main.js": "/portifolio/static/js/main.d1f88686.js",
+    "main.css": "/portifolio/static/css/main.79aee597.css",
+    "main.js": "/portifolio/static/js/main.12945c19.js",
     "static/media/solarSystem.svg": "/portifolio/static/media/solarSystem.9d224867c8c2b618dd87057507fc2b7f.svg",
     "static/media/sizesAppDeReceitas.svg": "/portifolio/static/media/sizesAppDeReceitas.8dd041df67273ddead0d3dca7c5ee9c5.svg",
     "static/media/profileWhite.png": "/portifolio/static/media/profileWhite.d5d5c00af06d32069f6b.png",
@@ -17,15 +17,16 @@
     "static/media/united-states.png": "/portifolio/static/media/united-states.348322a7eb6fa906d005.png",
     "static/media/carShop.svg": "/portifolio/static/media/carShop.00655116c58b52c9a8ed8db9318b5a5e.svg",
     "static/media/tfcLogo.svg": "/portifolio/static/media/tfcLogo.e3e2d3d6daaa574c8a75a98e0bd048d0.svg",
+    "static/media/express.svg": "/portifolio/static/media/express.b5a64033eeec9ba5acc7e87a24df1d59.svg",
     "static/media/blogApi.svg": "/portifolio/static/media/blogApi.f593d25b0e01c5ccc5926b4827fa3f23.svg",
     "index.html": "/portifolio/index.html",
     "static/media/menuWhite.svg": "/portifolio/static/media/menuWhite.581ba5eed11dcf7d19f231c6313d35b7.svg",
     "static/media/menuDark.svg": "/portifolio/static/media/menuDark.2af3d7995b2e6b166c2d1c14aa4a89e2.svg",
-    "main.a4fb2fb2.css.map": "/portifolio/static/css/main.a4fb2fb2.css.map",
-    "main.d1f88686.js.map": "/portifolio/static/js/main.d1f88686.js.map"
+    "main.79aee597.css.map": "/portifolio/static/css/main.79aee597.css.map",
+    "main.12945c19.js.map": "/portifolio/static/js/main.12945c19.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4fb2fb2.css",
-    "static/js/main.d1f88686.js"
+    "static/css/main.79aee597.css",
+    "static/js/main.12945c19.js"
   ]
 }
