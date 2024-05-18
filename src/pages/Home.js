@@ -6,6 +6,7 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 import imgHome from '../assets/imgHome.svg';
 import portfolioContext from '../context/PortfolioContext';
+import Type from '../components/TypeEffect';
 
 function Home(props) {
   const {history} = props
@@ -17,18 +18,25 @@ function Home(props) {
       <main className={toggleDark ? "main-home-dark" : "main-home"}>
         <section className="section1-home">
           <section className='div-home'>
-            <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>
+            {/* <h1 className={`${toggleDark ? "title-dark" : "title"} typing-animation`}>
               { languageButton
                 ? `Hi, I'm Ramond Falcão, a Fullstack developer jr.`
                 : `Olá, sou Ramond Falcão, Desenvolvedor Fullstack.`
               }
+              </h1> */}
+              <h1 style={{ paddingBottom: 15 }} className="heading">
+                Hi There!{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
               </h1>
-            <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
+              <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
             { languageButton
                 ? ` I am passionate about developing applications, while working collaboratively and solving user problems.`
                 : `Sou apaixonado por desenvolver aplicações, trabalhando de forma colaborativa e resolvendo problemas de usuários.`
             }
               </p>
+              <Type />
             <button
               onClick={() => history.push('/works')}
               type="button"
