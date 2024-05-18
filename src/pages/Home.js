@@ -24,12 +24,14 @@ function Home(props) {
                 : `Olá, sou Ramond Falcão, Desenvolvedor Fullstack.`
               }
               </h1> */}
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+              <div className="title-container">
+                <h1 style={{ paddingBottom: 15 }} className="heading">
+                  Hi There!{" "}
+                </h1>
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                    👋🏻
                 </span>
-              </h1>
+              </div>
               <p className={`${toggleDark ? "paragraph-dark " : "paragraph"} typing-animation-p`}>
             { languageButton
                 ? ` I am passionate about developing applications, while working collaboratively and solving user problems.`

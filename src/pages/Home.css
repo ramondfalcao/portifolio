@@ -8,7 +8,6 @@
   color: whitesmoke;
 }
 
-
 .img-home {
   margin-top: 40px;
   margin-left: 40px;
@@ -31,13 +30,26 @@
   width: 100%;
 }
 
-.title{
+.heading{
   /* border-right: 2px solid black; */
   margin-bottom: 20px;
-  color: rgb(5, 6, 45); 
-  font-size: 25px;
+  /* color: rgb(5, 6, 45); 
+  font-size: 25px; */
+  font-size: 2em; /* Tamanho da fonte */
+  background: linear-gradient(to right, #2f5fba, #020407); /* Gradiente azul */
+  -webkit-background-clip: text; /* Para navegadores baseados em WebKit */
+  -moz-background-clip: text; /* Para navegadores baseados em Mozilla */
+  background-clip: text; /* Padrão */
+  color: transparent; /* Torna o texto transparente para mostrar o gradiente */
 }
 
+.img {
+  width: 30px;
+}
+
+.title-container {
+  display: flex;
+}
 .title-dark{
   margin-bottom: 20px;
   color:  whitesmoke;
